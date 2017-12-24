@@ -4,10 +4,12 @@ This is a list of recommendations to make this project better
 
 // Please make your recommendations as clear as possible with only a few sentences 
 
-1. Hide the "errorMessage" message until an actual error occurs
+1. Hide the "errorMessage" message (using `ng-hide` class) until an actual error occurs (index.html, line 26) 
 
-2. Hide the "Welcome username" message until the user logs in successfully 
+2. Hide the "user profilepic" picture and "Welcome username" message (using `ng-hide` class) until the user logs in  (index.html, lines 41 & 42 respectively) 
 
-3. Hide the "change password" utility and make it available only after the user logs in
+3. Hide the "change password" utility (using `ng-hide` class) until the "change password" button clicked (index.html, line 44)
 
-4. Hide the "user profilepic" until the user logs in
+4. Center everything on the page vertically (using css)
+
+5. Add a signup feature (create a new signup page)
