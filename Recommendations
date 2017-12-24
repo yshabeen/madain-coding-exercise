@@ -4,10 +4,10 @@ This is a list of recommendations to make this project better
 
 // Please make your recommendations as clear as possible with only a few sentences 
 
-1.
+1. Hide the "errorMessage" message until an actual error occurs
 
-2.
+2. Hide the "Welcome username" message until the user logs in successfully 
 
-3.
+3. Hide the "change password" utility and make it available only after the user logs in
 
-4.
+4. Hide the "user profilepic" until the user logs in

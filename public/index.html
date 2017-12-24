@@ -22,7 +22,7 @@
         <div class="panel panel-default" ng-hide="user" >
             <div class="panel-heading">Login</div>
             <div class="panel-body">
-                <div ng-show="errorMessage" class="alert alert-warning">
+                <div ng-show="errorMessage" class="alert alert-warning ng-hide">
                     {{errorMessage}}
                 </div>
                 <div class="form-group">
@@ -37,10 +37,10 @@
             </div>
         </div>
         <div ng-show="user">
-            <img src="{{user.profilePic}}"/>
-            <h1>Welcome {{user.name}}</h1>
+            <img class ="ng-hide" src="{{user.profilePic}}"/>
+            <h1 class="ng-hide">Welcome {{user.name}}</h1>
             <a href="#" ng-click="newPasswordMode = true" ng-hide="newPasswordMode">Change Password</a>
-            <div ng-show="newPasswordMode">
+            <div ng-show="newPasswordMode" class="ng-hide">
                 <label for="newPassword">New Password</label>
                 <input type="password" id="newPassword" ng-model="newPassword" placeholder="New Password">
                 <button>Change</button>
